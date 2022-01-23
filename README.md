@@ -11,6 +11,7 @@ Main part of the project that contains work with mail and alarming about you get
 Let you configure:
   * **host** of your mail
   * **email**
+  * **from** ("noreply@cvut.cz")
   * **password**
   * **sound** for alarm 
   * **subject** of alarming mail ("KOS - Byl jste vpusten do rozvrhu.")
