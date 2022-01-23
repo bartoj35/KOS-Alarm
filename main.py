@@ -18,8 +18,6 @@ while ( True ):
 	# have mail 
 	if len ( mails ) == 0:
 		continue
-	for i in mails:
-		print ( i )
 
 	# check if it is new mail
 	if mails [ 0 ] . strftime ( "%Y-%m-%d" ) . startswith ( date . today ( ) . strftime ( "%Y-%m-%d" ) ):
