@@ -1,6 +1,7 @@
-HOST="outlook.office365.com"
-EMAIL="bartoj35@cvut.cz"
-PASSWORD="J6=i]NhjzWu@"
-SOUND="alarm.mp3"
+HOST=""
+EMAIL=""
+FROM="noreply@cvut.cz"
+PASSWORD=""
+SOUND=""
 SUBJECT="KOS - Byl jste vpusten do rozvrhu."
 

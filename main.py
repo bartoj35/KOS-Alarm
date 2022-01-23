@@ -13,11 +13,13 @@ mailbox . login ( EMAIL, PASSWORD, "INBOX" )
 
 while ( True ):
 	# get mails date with subject 
-	mails = [ msg . date for msg in mailbox . fetch ( AND ( subject = SUBJECT ) ) ]
+	mails = [ msg . date for msg in mailbox . fetch ( AND ( subject = SUBJECT, from_=FROM ) ) ]
 	
 	# have mail 
 	if len ( mails ) == 0:
 		continue
+	for i in mails:
+		print ( i )
 
 	# check if it is new mail
 	if mails [ 0 ] . strftime ( "%Y-%m-%d" ) . startswith ( date . today ( ) . strftime ( "%Y-%m-%d" ) ):
