@@ -1,0 +1,5 @@
+HOST=""
+USERNAME=""
+PASSWORD=""
+SOUND=""
+SUBJECT=""
