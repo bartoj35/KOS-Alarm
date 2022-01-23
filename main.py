@@ -9,7 +9,7 @@ def ring ( ):
 
 # login to mail inbox
 mailbox = MailBox ( HOST )
-mailbox . login ( USERNAME, PASSWORD, "INBOX" )
+mailbox . login ( EMAIL, PASSWORD, "INBOX" )
 
 while ( True ):
 	# get mails date with subject 
