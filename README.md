@@ -13,5 +13,5 @@ Let you configure:
   * **email**
   * **from** ("noreply@cvut.cz")
   * **password**
-  * **sound** for alarm 
+  * **sound** for alarm (should be mp3)
   * **subject** of alarming mail ("KOS - Byl jste vpusten do rozvrhu.")
