@@ -1,5 +1,5 @@
 ## KOS-Alarm
-This tiny project was made for purpose of detecting mail that let you know about your mail with specified subject you got today, for me alarming me about school timetable opening.
+This tiny project was made for purpose of detecting mail that alarming you about school timetable opening.
 
 ---
 
@@ -13,4 +13,4 @@ Let you configure:
   * **email**
   * **password**
   * **sound** for alarm 
-  * **subject** of alarming mail
+  * **subject** of alarming mail ("KOS - Byl jste vpusten do rozvrhu.")
